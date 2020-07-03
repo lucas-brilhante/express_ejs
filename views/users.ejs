@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<%- include('includes/head', {title: title}); %>
+<body>
+    <main>
+        <ul>
+            <% for(user of users) { %>
+                <li> <%= user.username %> </li>
+            <% } %>
+        </ul>
+    </main>
+</body>
+</html>
